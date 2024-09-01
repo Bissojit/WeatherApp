@@ -5,11 +5,13 @@ import requests
 from tkinter import messagebox
 from PIL import Image, ImageTk
 import ttkbootstrap
+from dotenv import load_dotenv
+import os
 
 # Function to get weather information from OpenWeatherMap API
 
 def get_weather(city):
-    API_key = "b6086d3578647c59fa0e60c5f04db93f"
+    API_key = os.getenv("API_key")
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_key}"
     res = requests.get(url)
 
