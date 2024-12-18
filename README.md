@@ -1,8 +1,8 @@
-WEATHER APP
+# WEATHER APP
 
 Developed and deployed a Python-based weather application to fetch and display real-time weather data for users across the globe. This application demonstrates API integration, efficient data handling, and a focus on user accessibility.
 
-FEATURES AND FUNCTIONALITY
+## FEATURES AND FUNCTIONALITY
 
 1. Real-Time Weather Data: The app utilizes API calls to retrieve accurate and up-to-date weather conditions for any user-specified location.
 2. Dynamic Data Handling: Leveraged Python's libraries to parse and present weather information in a user-friendly format.
